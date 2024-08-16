@@ -36,6 +36,7 @@
         "no-console": 2,
         "no-alert": 2,
         "comma-dangle": ["error", "never"],
+        "no-eval": 0,
         "no-use-before-define": [
             "error",
             { "functions": false, "classes": true, "variables": true }
