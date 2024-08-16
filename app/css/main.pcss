@@ -1,10 +1,10 @@
 body {
-	background: darkgray;
+    background: darkgray;
 }
 
 .calculator {
     display: block;
-	height: 440px;
+    height: 440px;
     width: 300px;
     margin-top: 10%;
     margin-left: auto;
@@ -14,12 +14,12 @@ body {
     border-radius: 20px;
     box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
 
-	&__title {
-		color: inherit;
-		font-size: 16px;
+    &__title {
+        color: inherit;
+        font-size: 16px;
         text-align: center;
-		text-transform: uppercase;
-	}
+        text-transform: uppercase;
+    }
 
     &__screen {
         width: 85%;
@@ -35,41 +35,41 @@ body {
 }
 
 .credit {
-	margin-top: 50px;
-	font-style: italic;
+    margin-top: 50px;
+    font-style: italic;
     text-align: center;
 }
 
 .grid {
-	display: grid;
-	grid-gap: 10px 15px;
-	grid-template-columns: 50px 50px 50px 50px;
+    display: grid;
+    grid-gap: 10px 15px;
+    grid-template-columns: 50px 50px 50px 50px;
 }
 
 .buttons {
-	max-width: 250px;
-	margin: 20px auto;
+    max-width: 250px;
+    margin: 20px auto;
 
-	button {
-		line-height: 40px;
-		border-radius: 8px;
-		border: none;
-		color: white;
-		background-color: #3a3a3a;
-		box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    button {
+        line-height: 40px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        background-color: #3a3a3a;
+        box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
         cursor: pointer;
 
-		&.zero {
-			grid-column: 1 / 3;
-		}
+        &.zero {
+            grid-column: 1 / 3;
+        }
 
-		&.equals {
-			grid-column: 4;
-			grid-row: 4 / 6;
-		}
+        &.equals {
+            grid-column: 4;
+            grid-row: 4 / 6;
+        }
 
         &.red {
-            background-color: #F44336;
+            background-color: #f44336;
         }
-	}
+    }
 }

@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Web Calculator</title>
+
+        <link rel="stylesheet" href="/app/css/main.pcss" />
+    </head>
+
+    <body>
+        <ws-calculator class="calculator">
+            <header class="calculator__display">
+                <h2 class="calculator__title">TypeScript calculator</h2>
+                <div class="calculator__screen">
+                    <span class="screen-value" data-role="display">0</span>
+                </div>
+            </header>
+
+            <section class="buttons grid">
+                <button class="red" value="ac">AC</button>
+                <button class="red" value="ce">ce</button>
+                <button value="/">÷</button>
+                <button value="*">x</button>
+
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="-">-</button>
+
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="+">+</button>
+
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button class="equals" value="=">=</button>
+
+                <button class="zero" value="0">0</button>
+                <button value=".">.</button>
+            </section>
+        </ws-calculator>
+
+        <footer class="credit text-center">
+            Developed and designed by
+            <a href="https://www.wesleysmits.com" title="Wesley Smits">Wesley Smits</a>
+        </footer>
+
+        <script type="module" src="/app/js/app.ts"></script>
+    </body>
+</html>
